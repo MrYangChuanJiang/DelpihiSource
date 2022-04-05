@@ -1,0 +1,30 @@
+object FormAdd: TFormAdd
+  Left = 0
+  Top = 0
+  Caption = #26032#22686#23398#21592#20449#24687
+  ClientHeight = 369
+  ClientWidth = 306
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 21
+  object lblName: TLabel
+    Left = 24
+    Top = 96
+    Width = 81
+    Height = 21
+    Caption = #22995#21517':'
+  end
+  object lblAge: TLabel
+    Left = 24
+    Top = 136
+    Width = 81
+    Height = 21
+    Caption = #24180#40836':'
+  end
+end

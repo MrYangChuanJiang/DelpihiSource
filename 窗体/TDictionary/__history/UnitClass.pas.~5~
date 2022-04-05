@@ -1,0 +1,15 @@
+unit UnitClass;
+
+interface
+type
+  TStudent=class
+    private
+      FName:string ;
+      FAge:Integer;
+      FId:string;
+    public
+      constructor  Create(Name:string;Age:Integer;Id:string);overload;
+  end;
+implementation
+
+end.

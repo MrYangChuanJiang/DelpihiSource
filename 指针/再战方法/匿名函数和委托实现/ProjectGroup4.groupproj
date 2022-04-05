@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F2EF9DB7-83C3-45F8-996F-C8FE635A2CC6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="匿名函数和委托实现.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\委托实现\Demo1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="匿名函数和委托实现">
+        <MSBuild Projects="匿名函数和委托实现.dproj"/>
+    </Target>
+    <Target Name="匿名函数和委托实现:Clean">
+        <MSBuild Projects="匿名函数和委托实现.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="匿名函数和委托实现:Make">
+        <MSBuild Projects="匿名函数和委托实现.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo1">
+        <MSBuild Projects="..\委托实现\Demo1.dproj"/>
+    </Target>
+    <Target Name="Demo1:Clean">
+        <MSBuild Projects="..\委托实现\Demo1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo1:Make">
+        <MSBuild Projects="..\委托实现\Demo1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="匿名函数和委托实现;Demo1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="匿名函数和委托实现:Clean;Demo1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="匿名函数和委托实现:Make;Demo1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

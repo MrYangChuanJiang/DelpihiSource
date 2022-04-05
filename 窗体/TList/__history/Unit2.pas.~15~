@@ -1,0 +1,20 @@
+unit Unit2;
+
+interface
+
+type
+    TStudent = class
+    private
+        FName: string;
+    public
+
+        property Name: string read FName write FName;
+        constructor Create; overload;
+        constructor Create(AOwner: TComponent); overload;
+
+    end;
+
+implementation
+
+end.
+

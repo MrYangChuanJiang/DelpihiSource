@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/04/01 12:21:03.596,F:\DELPHI\delphiWorkspace\指针\指针\Demo2\Project1.dproj=F:\DELPHI\delphiWorkspace\Project1.dproj</Transaction>
+    <Transaction>2022/04/01 12:21:16.987,F:\DELPHI\delphiWorkspace\指针\指针\Demo2\Demo2.dproj=F:\DELPHI\delphiWorkspace\指针\指针\Demo2\Project1.dproj</Transaction>
+    <Transaction>2022/04/01 13:06:33.853,=F:\DELPHI\delphiWorkspace\指针\指针\Demo2\Unit1.pas</Transaction>
+    <Transaction>2022/04/01 13:06:47.979,F:\DELPHI\delphiWorkspace\指针\指针\Demo2\uTools.pas=F:\DELPHI\delphiWorkspace\指针\指针\Demo2\Unit1.pas</Transaction>
+    <Transaction>2022/04/01 13:40:25.761,F:\DELPHI\delphiWorkspace\指针\指针\Demo2\uExtents.pas=F:\DELPHI\delphiWorkspace\指针\指针\Demo2\uTools.pas</Transaction>
+    <Transaction>2022/04/01 13:40:38.263,F:\DELPHI\delphiWorkspace\指针\指针\Demo2\uExtends.pas=F:\DELPHI\delphiWorkspace\指针\指针\Demo2\uExtents.pas</Transaction>
+  </Transactions>
+</BorlandProject>

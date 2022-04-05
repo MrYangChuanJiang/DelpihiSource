@@ -1,0 +1,32 @@
+program Demo3;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+    System.SysUtils;
+
+procedure NarcissisticNumber();
+var
+    NarcissisticNum: Integer;
+    {百位}
+    Handreds: Integer;
+    {十位}
+    TenNumber: Integer;
+    {个位}
+    OneNumber: Integer;
+
+begin
+    NarcissisticNum := 153;
+    Handreds := NarcissisticNum div 100;  {求百位值}
+    TenNumber := (NarcissisticNum mod 100) div 10;  {求十位的值}
+    OneNumber := (NarcissisticNum mod 100) mod 10              {求个位的值}
+
+    Writeln('百位：',NarcissisticNum);
+end;
+
+begin
+    Readln;
+end.
+

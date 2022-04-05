@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/03 17:18:19.000.847,=F:\DELPHI\delphiWorkspace\Unit1.pas</Transaction>
+    <Transaction>2022/04/03 17:18:37.000.060,F:\DELPHI\delphiWorkspace\Unit1.dfm=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitMain.dfm</Transaction>
+    <Transaction>2022/04/03 17:18:37.000.060,F:\DELPHI\delphiWorkspace\Unit1.pas=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitMain.pas</Transaction>
+    <Transaction>2022/04/03 17:22:22.000.653,=F:\DELPHI\delphiWorkspace\Unit1.pas</Transaction>
+    <Transaction>2022/04/03 17:22:37.000.783,F:\DELPHI\delphiWorkspace\Unit1.pas=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitClass.pas</Transaction>
+    <Transaction>2022/04/03 17:22:48.000.843,=F:\DELPHI\delphiWorkspace\Unit1.pas</Transaction>
+    <Transaction>2022/04/03 17:22:55.000.027,F:\DELPHI\delphiWorkspace\Unit1.pas=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitDao.pas</Transaction>
+    <Transaction>2022/04/03 17:39:46.000.475,=F:\DELPHI\delphiWorkspace\Unit1.pas</Transaction>
+    <Transaction>2022/04/03 17:39:56.000.007,F:\DELPHI\delphiWorkspace\Unit1.dfm=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitAdd.dfm</Transaction>
+    <Transaction>2022/04/03 17:39:56.000.007,F:\DELPHI\delphiWorkspace\Unit1.pas=F:\DELPHI\delphiWorkspace\窗体\TDictionary\UnitAdd.pas</Transaction>
+    <Transaction>2022/04/03 17:51:10.000.513,F:\DELPHI\delphiWorkspace\Project1.dproj=F:\DELPHI\delphiWorkspace\窗体\TDictionary\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

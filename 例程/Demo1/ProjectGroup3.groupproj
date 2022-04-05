@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0C7623ED-A30E-4309-9655-CB0733DB80E5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="例程.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\返回值.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="例程">
+        <MSBuild Projects="例程.dproj"/>
+    </Target>
+    <Target Name="例程:Clean">
+        <MSBuild Projects="例程.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="例程:Make">
+        <MSBuild Projects="例程.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="返回值">
+        <MSBuild Projects="..\..\返回值.dproj"/>
+    </Target>
+    <Target Name="返回值:Clean">
+        <MSBuild Projects="..\..\返回值.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="返回值:Make">
+        <MSBuild Projects="..\..\返回值.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="例程;返回值"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="例程:Clean;返回值:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="例程:Make;返回值:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

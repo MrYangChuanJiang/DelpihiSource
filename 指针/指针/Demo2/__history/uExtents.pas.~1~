@@ -1,0 +1,54 @@
+unit uTools;
+
+interface
+type
+    {定义一个类}
+    TAnimal = class
+    private
+      FWeight:Integer;
+      FSex:string;
+
+    public        {定义一个构造方法}
+        constructor Create();
+
+        {定义属性}
+        property  Sex:string   read FSex write FSex;
+        property Weight:Integer read FWeight write  FWeight;
+
+    end;
+    {定义一个派生类}
+
+    TDog = class(TAnimal)
+    public
+        constructor Create();
+    end;
+
+    TCat = class(TAnimal)
+    public        {定义一个构造方法}
+        constructor Create();
+    end;
+
+{ TAnimal }
+
+
+begin
+  {类字段的初始化}
+    Writeln('TAnimal->动物类');
+end;
+
+{ TDog }
+
+constructor TDog.Create;
+begin
+    Writeln('TAnimal-狗类');
+end;
+
+{ TCat }
+
+constructor TCat.Create;
+begin
+    Writeln('TAnimal->猫类');
+end;
+implementation
+
+end.

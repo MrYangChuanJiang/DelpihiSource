@@ -1,0 +1,30 @@
+unit UnitClass;
+
+interface
+type
+  TStudent=class
+    private
+      FName:string ;
+      FAge:Integer;
+      FId:string;
+    public
+      constructor  Create(Name:string;Age:Integer;Id:string);overload;
+      constructor  Create();overload;
+  end;
+implementation
+
+{ TStudent }
+
+constructor TStudent.Create(Name: string; Age: Integer; Id: string);
+begin
+Self.FName:=Name;
+Self.FAge:=Age;
+Self.FId:=id;
+end;
+
+constructor TStudent.Create;
+begin
+
+end;
+
+end.

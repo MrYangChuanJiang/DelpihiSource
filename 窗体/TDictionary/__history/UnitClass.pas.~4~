@@ -1,0 +1,13 @@
+unit UnitClass;
+
+interface
+type
+  TStudent=class
+    private
+      FName:string ;
+      FAge:Integer;
+      FId:string;
+  end;
+implementation
+
+end.

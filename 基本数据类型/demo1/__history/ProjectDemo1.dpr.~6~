@@ -1,0 +1,19 @@
+program ProjectDemo1;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses   System.SysUtils;
+// 引入其他单元
+
+  {
+    注释,给代码添加使用说明..
+  }
+  // delphi 学习C系语言的注释方式
+  (*
+   注释...
+  *)
+begin
+
+end.

@@ -1,0 +1,15 @@
+program ProjectDemo1;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+// 引入其他单元
+  System.SysUtils;
+  {
+    注释,给代码添加使用说明..
+  }
+begin
+
+end.
